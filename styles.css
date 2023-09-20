@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    width: 100%;
+    background-color: rgb(226, 165, 89);
+    background-image: url('blue-g26d60f943_1280.jpg');
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    height: 200px;
+    background-color: rgba(93, 132, 84, 0.779);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.library-display {
+    flex: 1;
+    background-color: orange;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#Clr {
+    
+}
+
+input {
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+
+
+
